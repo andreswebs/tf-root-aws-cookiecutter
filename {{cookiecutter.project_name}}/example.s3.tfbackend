@@ -1,0 +1,5 @@
+bucket         = "example-bucket"
+dynamodb_table = "tfstate-lock"
+encrypt        = true
+key            = "stack-example/terraform.tfstate"
+region         = "us-east-1"
